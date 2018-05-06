@@ -90,42 +90,13 @@ html{
  	transition: 1s all;
  }
   
-.start-login input{
-	background: #222;
-	background: linear-gradient(#333333,#222222);
-	border:1px solid #444;
-	border-radius:5px;
-	box-shadow: 0 2px 0 #000 0;
-	color:#888;
-	display: block;
-	font-family: 'Cabin',helvetica,arial,sans-serif;
-	height:40px;
-	width:400px;
-	font-size:14px;
-	margin:20px auto 10px;
-	padding: 0 10px;
-	text-shadow: 0 -1px 0 #000;
 
+
+ul {
+    list-style-type: none;
 }
 
-.start-login input:focus{
-	animation: box-glow 2s ease-out infinite alternate;
-    background: #0b4252;
-    background: linear-gradient(#333933,#222922);
-    border-color: #00ffcf;
-    box-shadow: 0 0 5px rgba(0,255,253,0.2),
-       inset 0 0 5px rgba(0,255,253,0.1), 0 2px 0 #000;
-       color: #efe;
-    outline: none;
-}
-
-.start-login input:invalid{
-	border:2px solid red;
-	box-shadow:0 0 5px rgba(255,0,0,0.2)
-	inset 0 0 5px rgba(255,0,0,0.1),0 2px 0 #000;
-}
-
-.start-login button{
+.start-login li a{
 	animation: input-entry 3s ease-in;
 	background: #222;
 	background: linear-gradient(#333333,#222222);
@@ -150,15 +121,15 @@ html{
 
 
 }
-.start-login button:hover,
-.start-login button:focus{   
+.start-login li a:hover,
+.start-login li a:focus{   
 	background:#0c6125;
 	background: linear-gradient(#393939,#292929);
 	color: #00fff0;
 	outline: none;
 	transition: 1s all;
 }
-.start-login button:active{
+.start-login li a:active{
 	background: #292929;
 	background: linear-gradient(#393939,#292929);
 	box-shadow:0 1px 0 #000,
